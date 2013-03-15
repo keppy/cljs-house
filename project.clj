@@ -9,7 +9,8 @@
                  [hiccups "0.2.0"]
                  [shoreleave/shoreleave-remote "0.3.0"]
                  [enfocus "1.0.1"]]
-  :plugins [[lein-cljsbuild "0.3.0"]]
+  :plugins [[lein-cljsbuild "0.3.0"]
+            [lein-tarsier "0.10.0"]]
   :cljsbuild {
               :builds [{
                       :source-paths ["src/cljs"]
