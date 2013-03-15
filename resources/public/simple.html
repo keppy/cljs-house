@@ -9,6 +9,16 @@
 </head>
 <body>
 	<!-- pointing to cljsbuild generated js file -->
-	<script src="js/ezlodge.js"></script>
+	<script src="../../../js/ezlodge.js"></script>
+	<div class="employees" id="employees">
+	    <form action="" method="get" id="employeeForm">
+	        <fieldset>
+			<legend>Employees</legend>
+			<div id="rz" style="width: 5px; height: 10px; background-color: #33ff33;"> </div>
+	        </fieldset>
+    	    </form>
+   	 </div>
+	<div><input type="button" value="Get" id="get"></div>
+	<script>ezlodge.ezlodge.init();</script> 
 </body>
 </html>

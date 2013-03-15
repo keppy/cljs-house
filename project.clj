@@ -7,7 +7,8 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [domina "1.0.2-SNAPSHOT"]
                  [hiccups "0.2.0"]
-                 [webfui "0.2.1"]]
+                 [shoreleave/shoreleave-remote "0.3.0"]
+                 [enfocus "1.0.1"]]
   :plugins [[lein-cljsbuild "0.3.0"]]
   :cljsbuild {
               :builds [{
