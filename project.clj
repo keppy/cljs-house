@@ -1,6 +1,6 @@
 (defproject ezlodge "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "cljs-house | ClojureScript starting point"
+  :url "http://jamesdominguez.com"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :source-paths ["src/clj"]
